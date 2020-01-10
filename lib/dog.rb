@@ -9,14 +9,14 @@ class Dog
   end
 end
 
-lassie = Dog.new
-lassie.name = "Lassie"
-
  def breed=(dogs_breed)
    @this_dogs_breed = dogs_breed
  end
+
  def breed
    @this_dogs_breed
  end
  end
+ lassie = Dog.new
+ lassie.name = "Lassie"
  lassie.breed = "Collie"
